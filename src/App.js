@@ -16,6 +16,7 @@ import { Login } from "./pages/login/login";
 import { Footer } from "../src/components/footer/footer";
 import { Discount } from "./pages/discount/discount";
 import { PanelAdmi } from "./pages/panel-admi/panel-admi";
+import { Error } from "./pages/error-404/error-404";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Router>
         <div className="App">
           <Header />
+         
           <Routes>
             <Route index element={<HomePage />} />
             <Route path="/app/:title" element={<GamePage/>} />
@@ -31,7 +33,9 @@ function App() {
             <Route path="/about" element={<AboutUs/>} />
             <Route path="/login" element={<Login/>} />   
             <Route path="/discount" element={<Discount />} /> 
-            <Route path="/panel-admi" element={<PanelAdmi/>} />    
+            <Route path="/panel-admi" element={<PanelAdmi/>} />
+            <Route path="/error-404" element={ <Error />} />
+         
           </Routes>
         </div>
      <Footer />
