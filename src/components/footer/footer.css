@@ -1,0 +1,29 @@
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ripple:hover{
+width: 4rem;
+height: 3.3rem;
+}
+svg{
+    width: 2rem;
+    height: 2rem; 
+}
+h3{
+    width: auto;
+    margin-top: 0.6rem;
+}
+.banner-about p{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.logo-footer{
+    width: 70%;
+    height: 5rem;
+    margin-left: 5rem;
+}

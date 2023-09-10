@@ -1,0 +1,97 @@
+.home_principal {
+  margin-top: 2rem;
+  color: white;
+}
+.carousel-home {
+  min-height: 100%;
+  width: 100%;
+  margin-bottom: 3rem;
+  background-image: url("../../assets/game-covers/back-carrousell.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#image1 {
+  background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/1613284/capsule_616x353.jpg?t=1649869077");
+  width: 100%;
+  display: block;
+  height: 450px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#image2 {
+  background-image: url("../../assets/game-covers/LifeisStrangeTrueColors.webp");
+  width: 100%;
+  display: block;
+  height: 450px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#image3 {
+  background-image: url("../../assets/game-covers/Gta5.webp");
+  width: 100%;
+  display: block;
+  height: 450px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.call-action {
+  width: 100%;
+  height: 450px;
+  background-image: url("../../assets/game-covers/Video-Game-Desktop-Backgrounds-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 13px;
+  margin-top: 1rem;
+}
+.tittle-carrousel {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 4.3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.tittle-principal {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.discount {
+  font-size: 7.5rem;
+  color: rgb(233, 227, 227);
+  border-radius: 50%;
+  background-color: rgba(254, 4, 4, 0.734);
+  padding: auto;
+  margin-top: 1.5rem;
+}
+.logo-home {
+  width: 100%;
+  margin-top: 5rem;
+  text-align: center;
+  height: 11rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 4px 3px 0px #ce000e;
+  transition: text-shadow 0.2s ease-in-out;
+  margin-right: 1rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+.logo-home img {
+  width: 25vw;
+  height: 19vh;
+  border-radius: 1rem;
+}
+.carousel-item{
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+.game-page{
+ margin-top: 7rem;
+}
+h1{
+  text-align: center;
+}
+.game-page__content{
+  display: flex;
+  gap: 20px;
+}
+
+.game-page__video{
+  width: 60%;
+}
+
+.game-page__about{
+  width: 40%;
+}
+
+.game-page__about-genre{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.game-page__buy{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 775px){
+  .game-page__content{
+    display: flex;
+    flex-direction: column;
+    }
+  .game-page__video{
+    width: 100%;
+  }
+  
+  .game-page__about{
+    width: 100%;
+  }
+}

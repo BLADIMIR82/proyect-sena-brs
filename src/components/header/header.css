@@ -1,0 +1,72 @@
+.header {
+  padding: 0.5rem 0rem;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  height: 7rem;
+  z-index: 3;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  z-index: 7;
+}
+img {
+  width: 70%;
+  height: 80%;
+  border-radius: 1rem;
+}
+
+/* .logo:hover{
+  text-shadow: none;
+} */
+.container-fluid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  width: 94%;
+  padding: 0 0.5rem;
+  border-radius: 5px 5px;
+  background-image: url('../../assets/game-covers/sep09.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-collapse {
+
+  width: 60%;
+}
+.nav-link {
+  margin: 0 0.5rem;
+  font-size: 1.3rem;
+}
+.header__cart {
+  margin-right: 5rem;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    background-image: none;
+    
+  }
+  .container-fluid{
+    background-color: black;
+    margin: 1rem;  
+  }
+  .logo{
+    display: none;
+  }
+  .header__cart{
+    margin-left: 2rem;
+  }
+  }

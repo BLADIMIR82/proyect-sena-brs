@@ -1,0 +1,30 @@
+.cart-menu{
+  position: absolute;
+  top: 60px;
+  right: -20px;
+  background-color: hsl(228, 6%, 15%);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 320px;
+  min-height: auto;
+  width: 100%;
+  box-shadow: 5px 5px 25px 5px #000000;
+  z-index: 9999;
+  overflow-y: scroll;
+}
+
+.cart-menu__game-list{
+}
+
+.cart-menu__arrange{
+  margin-top: 20px;
+  padding: 20px 0 0;
+  border-top: 1px solid #cecece;
+}
+
+.cart-menu__total-price{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+

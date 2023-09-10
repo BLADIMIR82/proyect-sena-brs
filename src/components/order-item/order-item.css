@@ -1,0 +1,20 @@
+.order-item{
+  display: flex;
+  gap: 20px;
+}
+
+.order-item__cover .game-cover{
+  width: 150px;
+  height: 150px;
+
+  border-radius: 0;
+}
+.order-item__title{
+  font-size: 24px;
+  font-weight: 600;
+}
+.order-item__price{
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: auto;
+}

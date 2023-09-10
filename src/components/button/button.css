@@ -1,0 +1,29 @@
+.btn{
+  border-radius: 15px;
+  color: #ffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.btn:hover{
+  box-shadow: 0px 1px 15px 1px #000 ;
+}
+
+.btn--primary {
+  background-color: #CE000E;
+}
+
+.btn--secondary {
+  background-color: rgb(80, 82, 84);
+}
+
+.btn--small {
+  font-size: 14px;
+}
+
+.btn--medium {
+  font-size: 18px;
+}
