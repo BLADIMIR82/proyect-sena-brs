@@ -68,14 +68,14 @@ export const GAMES = [
     price: 12,
     id: 7,
     description: 'Assassinʼs Creed Valhalla is an action role-playing video game structured around several main story arcs and numerous optional side-missions, called "World Events". The player takes on the role of Eivor Varinsdottir, a Viking raider, as they lead their fellow Vikings against the Anglo-Saxon kingdoms.'
-},{
-    image: forza5,
-    title: 'Forza Horizon 5',
-    genres: ['Racing', 'Simulator', 'Open world'],
-    price: 15,
-    video: 'https://www.youtube.com/embed/FYH9n37B7Yw',
-    id: 8,
-    description: "Forza Horizon 5 is a racing video game set in an open world environment based in a fictional representation of Mexico. The game has the largest map in the entire Forza Horizon series, being 50% larger than its predecessor, Forza Horizon 4, while also having the highest point in the Horizon series. The map was described by creative director Mike Brown as one of the most diverse Forza Horizon maps the team has built. The map contains an active caldera volcano, jungles and beaches, ancient Mayan temples, and towns and cities such as Guanajuato.",
+}, {
+    image: gta5,
+    title: 'Grand Theft Auto V',
+    genres: ['Action','Open world'],
+    video: 'https://www.youtube.com/embed/QkkoHAzjnUs',
+    price: 23,
+    id: 4,
+    description: 'Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world. Composed of the San Andreas open countryside area, including the fictional Blaine County, and the fictional city of Los Santos, the world is much larger in area than earlier entries in the series. It may be fully explored after the gameʼs beginning without restriction, although story progress unlocks more gameplay content.'
 },
 {
     image: forza5,

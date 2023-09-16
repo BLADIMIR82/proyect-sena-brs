@@ -59,6 +59,7 @@ export const PanelAdmi = ({ props }) => {
           e.preventDefault();
           handleCreate();
         }}
+        className="form-admin"
       >
         <input
           type="text"
